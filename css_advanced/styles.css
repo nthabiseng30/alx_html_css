@@ -1,12 +1,77 @@
-/* Hero Section */
+/* Header Styles */
 
 
-.hero {
-color: #ffffff;
-text-align: center;
-padding: 2rem 0;
-background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 49, 61, 0.0001) 0%, #071629 100%), url("images/object.png");
-background-blend-mode: color;
-background-size: cover;
-background-position: center;
+.header {
+width: 1103.41px;
+height: 29.46px;
+position: absolute;
+top: 35.02px;
+left: 171.59px;
+}
+
+
+/* Main Part Styles */
+
+
+.main-part {
+width: 1440px;
+height: 1093px;
+}
+
+
+/* Part 1 Testimonials Styles */
+
+
+.testimonials {
+width: 1440px;
+height: 392px;
+position: absolute;
+top: 1093px;
+left: -1px;
+}
+
+
+/* Part 2 Tutorials Styles */
+
+
+.tutorials {
+width: 1228px;
+height: 450px;
+position: absolute;
+top: 1572px;
+left: 106px;
+}
+
+
+/* Part 3 Free Membership Styles */
+
+
+.free-membership {
+width: 1440px;
+height: 502px;
+position: absolute;
+top: 2109px;
+}
+
+
+/* Part 4 FAQ Styles */
+
+
+.faq {
+width: 920px;
+height: 707px;
+position: absolute;
+top: 2678px;
+left: 249px;
+}
+
+
+/* Part 5 Footer Styles */
+
+
+.footer {
+width: 1440px;
+height: 249px;
+position: absolute;
+top: 3469px;
 }
