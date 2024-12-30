@@ -1,39 +1,12 @@
-header {
-  background-color: #333; /* Replace with the actual color from Figma */
-  padding: 20px; /* Replace with the actual padding from Figma */
-  text-align: center;
+/* Hero Section */
+
+
+.hero {
+color: #ffffff;
+text-align: center;
+padding: 2rem 0;
+background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 49, 61, 0.0001) 0%, #071629 100%), url("images/object.png");
+background-blend-mode: color;
+background-size: cover;
+background-position: center;
 }
-
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-header nav ul li {
-  margin-right: 20px;
-}
-
-header nav ul li a {
-  color: #fff; /* Replace with the actual text color from Figma */
-  text-decoration: none;
-}
-
-
-main section:first-child {
-  background-image: url('images/object.png'); /* Replace with the actual image from Figma */
-  background-size: cover;
-  background-position: center;
-  height: 500px; /* Replace with the actual height from Figma */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff; /* Replace with the actual text color from Figma */
-}
-
-main section:first-child h1 {
-  font-size: 48px; /* Replace with the actual font size from Figma */
-}
-
