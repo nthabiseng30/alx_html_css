@@ -1,1 +1,52 @@
+/* Hero Section */
 
+
+.hero {
+color: #ffffff;
+text-align: center; /* Center content _/
+padding: 2rem 0; /_ Increased padding */
+background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.0001) 0%, #071629 100%), url("images/picture.png");
+background-blend-mode: color;
+background-size: cover;
+background-position: center;
+}
+
+
+/* Image Container */
+
+
+.image-container {
+position: relative;
+width: 100%; /* Responsive width _/
+height: 0;
+padding-top: 56.25%;
+aspect-ratio: 16/9;
+overflow: hidden; /_ Ensure no overflow */
+}
+
+
+/* Background Image */
+
+
+.image-container .background {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+object-fit: cover; /* Ensure the image covers the container _/
+z-index: 1; /_ Places the background behind the overlay */
+}
+
+
+/* Overlay Image */
+
+
+.image-container .overlay {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2; /* Places the overlay above the background */
+width: 50px;
+height: 50px;
+}
